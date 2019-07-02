@@ -10,4 +10,4 @@ if not r.ok:
   sys.exit()
 
 decoded = r.json()
-print(repr(decoded))p_id_get('homo sapiens', 'TP53')
+print(repr(decoded))
